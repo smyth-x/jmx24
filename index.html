@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <link rel="shortcut icon" href="https://c.s-microsoft.com/favicon.ico?v2" />
     <title>Temperature converter</title>
-    <link rel="manifest" href="/manifest.json">
+    <link rel="manifest" href="manifest.json">
     <link rel="stylesheet" href="converter.css">
   </head>
   <body>
@@ -29,7 +29,7 @@
       <script src="converter.js"></script>
       <script>
         if('serviceWorker' in navigator) {
-          navigator.serviceWorker.register('/sw.js', { scope: '/' });
+          navigator.serviceWorker.register('sw.js', { scope: '/' });
         }
         </script>
   </body>
